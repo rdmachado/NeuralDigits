@@ -92,19 +92,6 @@ namespace NeuralDigits
             {
                 for (int j = 0; j < matrix_2.Columns; j++)
                 {
-                    // this is faster
-                    //var row = matrix_1.GetRow(i);
-                    //var column = matrix_2.GetColumn(j);
-                    //double val = 0;
-
-                    //for (int k = 0; k < row.Length; k++)
-                    //{
-                    //    val += row[k] * column[k];
-                    //}
-
-                    //ret[i, j] = val;
-
-                    // than this
                     for (int k = 0; k < matrix_1.Columns; k++)
                     {
                         ret[i, j] += matrix_1[i, k] * matrix_2[k, j];
