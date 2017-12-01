@@ -2,8 +2,7 @@
 A multilayer perceptron neural network for the MNIST digit database
 
 
-![alt tag](https://s8.postimg.org/fx9pcvcad/2017-04-23_16-09-06.gif)
-
+![alt-text](https://media.giphy.com/media/l1KdaKOH3Mgph5uMw/giphy.gif "")
 
 This is a simple C# implementation of a MLP with a single hidden layer using a sigmoid activation function optimized via the conjugate gradient descent algorithm.
 
